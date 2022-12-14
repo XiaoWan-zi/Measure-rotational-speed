@@ -8,7 +8,7 @@
 
 ![image](https://github.com/XiaoWan-zi/Measure-rotational-speed/blob/main/image/%E4%BC%A0%E6%84%9F%E5%99%A8%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
-图1　霍尔测量法示意图
+                                                          图1　霍尔测量法示意图
 
 两种方法相比，前者：
 　　当转速较慢时，例如RPM低于60，即1秒时间内转动时间小于1圈。此时计算出的转速一直为0；
@@ -19,13 +19,16 @@
 实验部分
 实验过程：以优利德（UNI-T）的光学转速传感器结合白色布条为标准数据进行实验，可以进行RPM与count的实时显示，实物图如下2所示。
 
-
+![image](https://github.com/XiaoWan-zi/Measure-rotational-speed/blob/main/image/%E4%BC%98%E5%88%A9%E5%BE%B7%E5%85%89%E5%AD%A6%E8%BD%AC%E9%80%9F%E4%BC%A0%E6%84%9F%E5%99%A8.jpg)
 
 图２　优利德光学转速传感器
 
 　　电路板由一块核心板和靠近主轴的监测板组成。核心板以STMF103作为主控，将监测板上霍尔传感器的输入通过一个电压比较器输出给STM32的引脚完成监测。两者通过排插连接。
+  
+![image](https://github.com/XiaoWan-zi/Measure-rotational-speed/blob/main/image/%E7%9B%91%E6%B5%8B%E7%94%B5%E8%B7%AF%E6%9D%BF.jpg)
 
 图３　监测电路板
+
 以电调为驱动，分别在不同PWM下记录转速数据，PWM为1400电机开始转动，上限为2200，其中的间隔为100。
 实验结果如下：
 
@@ -41,7 +44,7 @@ PWM	参考转速（RPM）	霍尔转速（计时法）	霍尔转速（计数法)
 2200	1853	1855	1860
 根据平均误差计算公式
 
-
+![image](https://github.com/XiaoWan-zi/Measure-rotational-speed/blob/main/image/%E5%B9%B3%E5%9D%87%E8%AF%AF%E5%B7%AE.jpg)
 
 求得计时法的平均转速误差为3.8RPM。在参考数据存在一定误差的情况下，精度较高。
 
