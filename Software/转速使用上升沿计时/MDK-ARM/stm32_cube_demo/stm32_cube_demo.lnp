@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"stm32_cube_demo\startup_stm32f103xb.o"
+"stm32_cube_demo\main.o"
+"stm32_cube_demo\gpio.o"
+"stm32_cube_demo\tim.o"
+"stm32_cube_demo\usart.o"
+"stm32_cube_demo\stm32f1xx_it.o"
+"stm32_cube_demo\stm32f1xx_hal_msp.o"
+"stm32_cube_demo\stm32f1xx_hal_gpio_ex.o"
+"stm32_cube_demo\stm32f1xx_hal_tim.o"
+"stm32_cube_demo\stm32f1xx_hal_tim_ex.o"
+"stm32_cube_demo\stm32f1xx_hal.o"
+"stm32_cube_demo\stm32f1xx_hal_rcc.o"
+"stm32_cube_demo\stm32f1xx_hal_rcc_ex.o"
+"stm32_cube_demo\stm32f1xx_hal_gpio.o"
+"stm32_cube_demo\stm32f1xx_hal_dma.o"
+"stm32_cube_demo\stm32f1xx_hal_cortex.o"
+"stm32_cube_demo\stm32f1xx_hal_pwr.o"
+"stm32_cube_demo\stm32f1xx_hal_flash.o"
+"stm32_cube_demo\stm32f1xx_hal_flash_ex.o"
+"stm32_cube_demo\stm32f1xx_hal_exti.o"
+"stm32_cube_demo\stm32f1xx_hal_uart.o"
+"stm32_cube_demo\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "stm32_cube_demo\stm32_cube_demo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stm32_cube_demo.map" -o stm32_cube_demo\stm32_cube_demo.axf
