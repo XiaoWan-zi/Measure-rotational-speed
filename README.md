@@ -1,5 +1,6 @@
 # Measure-rotational-speed
 使用STM32F1定时器与霍尔传感器对无人机/无人车的主轴转速进行测量
+CSDN链接：https://blog.csdn.net/Sky777wdnmd/article/details/123552067
 
 国际标准中，国际标准单位为RPM（Revolutions Per Minute，转/分）。
 
