@@ -26,4 +26,4 @@ CSDN链接：https://blog.csdn.net/Sky777wdnmd/article/details/123552067
 　　通过统计旋转一圈的时间，或对多圈时间进行记录和累加，不需受到固定时间的拘泥。
   
 原理图：
-
+![image](https://github.com/XiaoWan-zi/Measure-rotational-speed/blob/main/image/%E5%8E%9F%E7%90%86%E5%9B%BE.png)
